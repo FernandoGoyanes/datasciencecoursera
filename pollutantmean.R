@@ -34,7 +34,7 @@ pollutantmean <- function(directory, pollutant, id = 1:332) {
 
                 id_string <- toString(x)
 
-                if (x >= 1 && x <= 9) {  
+                if (x >= 1 && x <= 9) {   
 
                         monitor <- paste("00", id_string, ".csv", sep="")
 
